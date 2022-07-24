@@ -1,10 +1,10 @@
 const mongoose = require("mongoose");
 const ItemSchema = new mongoose.Schema({
-name: {
+fname: {
 type: String,
 required: true,
 },
-quantity: {
+age: {
 type: Number,
 default: 0,
 },
